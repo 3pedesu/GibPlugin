@@ -1,0 +1,9 @@
+name: GibPlugin
+version: 0.0.1
+main: sanpe.plugin.gibplugin.GibPlugin
+commands:
+   test:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: gibplugin.test
+      permission-message: You don't have <permission>
